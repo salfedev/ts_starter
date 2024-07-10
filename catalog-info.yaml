@@ -6,5 +6,5 @@ metadata:
     github.com/project-slug: salfedev/ts_starter
 spec:
   type: other
-  lifecycle: unknown
+  lifecycle: development
   owner: guests
