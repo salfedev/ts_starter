@@ -2,6 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: ts_starter
+  namespace: Platform_Engineering
   annotations:
     github.com/project-slug: salfedev/ts_starter
 spec:
