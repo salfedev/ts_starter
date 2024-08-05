@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: ${{ parameters.name }}
+  namespace: ${{ parameters.name_space }}
+  annotations:
+    github.com/project-slug: salfedev/ts_starter
+spec:
+  type: ${{ parameters.type }}
+  lifecycle: ${{ parameters.lifecycle }}
+  owner: ${{ parameters.owner }}

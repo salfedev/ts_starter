@@ -1,0 +1,23 @@
+{
+  "name": "${{values.component_id}}",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc -p .",
+    "start": "nodemon --esm src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "nodemon": "^3.0.2",
+    "ts-node": "^10.9.2"
+  }
+}
